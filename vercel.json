@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    { "source": "/reset", "destination": "/api/index?__path=/reset" },
+    { "source": "/slots", "destination": "/api/index?__path=/slots" },
+    { "source": "/bookings", "destination": "/api/index?__path=/bookings" },
+    { "source": "/bookings/:id", "destination": "/api/index?__path=/bookings/:id" }
+  ]
+}
